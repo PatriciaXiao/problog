@@ -65,7 +65,12 @@ query(someHeads).
 
 When you press evaluate, this will result in **0.8**,
 because *P(someHeads) = 1 - (1-P(heads1)) (1-P(heads2)) = 1 - (1-0.5) (1-0.6) = 0.8*.
- 
+
+Sample usage:
+```bash
+python problog-cli.py hello.pl 
+```
+where *hello.pl* contains the above code.
 
 
 ## Get Started with ProbLog
