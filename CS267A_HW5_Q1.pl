@@ -1,11 +1,13 @@
 % reference:
 % https://github.com/ML-KULeuven/problog/blob/master/test/4_bayesian_net.pl
+% https://dtai.cs.kuleuven.be/problog/tutorial/basic/02_bayes.html
+% https://dtai.cs.kuleuven.be/problog/wasp2017/session4.html
 
 person(john).
 person(mary).
 
-0.7::burglary.
-0.2::earthquake.
+0.001::burglary.
+0.002::earthquake.
 
 0.9::alarm :- burglary, earthquake.
 0.8::alarm :- burglary, \+earthquake.
