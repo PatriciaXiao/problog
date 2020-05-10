@@ -1,7 +1,7 @@
 % reference:
 % https://github.com/ML-KULeuven/problog/blob/master/test/4_bayesian_net.pl
 % https://dtai.cs.kuleuven.be/problog/tutorial/basic/02_bayes.html
-% https://dtai.cs.kuleuven.be/problog/wasp2017/session4.html
+% https://dtai.cs.kuleuven.be/problog/wasp2017/session4.html %%% especially useful!
 
 person(john).
 person(mary).
